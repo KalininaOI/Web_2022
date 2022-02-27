@@ -1,0 +1,87 @@
+/* Общие стили */
+body {
+    margin: 0%;
+}
+ul {
+    margin: 0%;
+    padding: 0%;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+/* стили хэдера */
+header {
+    background-color: aqua;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    /* по поперечной оси */
+    align-items: center;
+    /* по вертикальной оси */
+}
+/* стили навигатора */
+.main-menu {
+    background-color: blueviolet;
+}
+.main-menu-list {
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    /* убираем маркеры - кружки */
+}
+/* стили контентной части */
+.content {
+    display: flex;
+}
+.main-section {
+    background-color: brown;
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* стили самих ячккк\блоков контента */
+.main-section-item {
+    background-color: coral;
+    width: calc(50% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+/* стили сайдбара */
+.sidebar-right {
+    background-color: darkcyan;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* меняем направление по осям - в колонки */
+    justify-content: space-around;
+    align-items: center;
+}
+/* стили футера */
+footer {
+    background-color: darkorange;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* стили для пробы flex 
+.pink {
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.orange {
+    background-color: orange;
+    border: 1px solid black;
+    width: 50%;
+    box-sizing: border-box; 
+    /* включить бордер в размеры блока, иначе он прибавляет бордюр к блоку, поэтому получается 50%+размер бордюра */
+
+/* } */
