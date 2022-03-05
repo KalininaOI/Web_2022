@@ -1,0 +1,102 @@
+/* Общие стили */
+body {
+    margin: 0ch;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* стили хэдера */
+.header-top {
+    border: 1px solid #dedede;
+}
+.header-top-info {
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-menu {
+    width: 945px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-menu-list {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+.top-menu-list a {
+    color: #424242;
+}
+.top-menu-list-left {
+    width: 352px;
+}
+.top-menu-list-left a {
+    text-decoration: none;
+}
+.top-menu-list-right {
+    width: 340px;
+}
+.list-blue {
+    color: #3A95FF;
+    font-weight: 600;
+    text-decoration: none;
+}
+.main-menu-list {
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main-menu-list a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* стили баннера */
+.main-banner {
+/* картинка баннера */
+box-shadow: #3A95FF;
+}
+.main-banner-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-offer-text {
+    margin-bottom: 63px;
+}
+.btn {
+    padding: 17px 26px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 3px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.btn-primary {
+    background-color: #3A95FF;
+    color: #ffff;
+}
+.btn-secondary {
+    border: 1px solid #3A95FF;
+    color: #3A95FF;
+}
+.banner-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 437px;
+}

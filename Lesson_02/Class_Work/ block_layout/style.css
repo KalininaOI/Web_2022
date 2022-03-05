@@ -68,6 +68,15 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    /* занимает 100% видимой области */
+}
+.wrap1 {
+    flex: 1;
+}
 /* стили для пробы flex 
 .pink {
     background-color: pink;
