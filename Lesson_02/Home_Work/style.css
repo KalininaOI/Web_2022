@@ -4,26 +4,30 @@
     background-color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
 }
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;   
+}
 .header {
     height: 80px;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     box-shadow: 0px 20px 40px 0px #E5E5E5;
+    display: flex;
+    justify-content: center;
 }
 .logo {
     height: 47px;
     width: 134px;
 }
 .contacts {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
     color: 424242;
+    font-style: normal;
 }
 .content {
     width: 1140px;
-    margin-left: 390px;
 }
 h1 {
     font-weight:bolder;
@@ -60,22 +64,18 @@ h3 {
     line-height: 140%;
     margin-top: 10px;
 }
-.line {
-    color: #FFB5B5;
-    border: 0ch;
-    height: 3px;
-    background-color:#FFB5B5;
-    width: 1137,5px;
-}
 .copyright {
-    margin-top: 101px;
-    margin-bottom: 101px;
+    height: 283px;
+    margin-top: 80px;
     border-top: 1px solid #FFB5B5;
     border-bottom: 1px solid #FFB5B5;
 }
 h4 {
-    font-weight:100;
-    font-size: 30px;
+    width: 1140px;
+    font-weight: 100;
+    line-height: 36px;
+    font-size: 32px;
+    margin-top: 101px;
     color: #FF445A;
     text-align: center;
     font-style: italic;
@@ -83,7 +83,7 @@ h4 {
 h5 {
     margin-top: -30px;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 24px;
     color: #FF445A;
     text-align: center;
     font-style: italic; 
@@ -110,7 +110,7 @@ h5 {
 }
 footer {
     background-color: #FFB5B5;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
     height: 80px;
