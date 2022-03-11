@@ -171,12 +171,19 @@ p2 {
 /* credit-cards */
 .credit-cards-block {
     background-color: #EFF2F5;
+
 }
 .content-cards {
-    margin-top: 137px;
-    margin-bottom: 138px;
+    /* margin-top: 137px;
+    margin-bottom: 138px; */
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.credit-wrap {
+    height: 775px;
+    display: flex;
+    align-items: center;
 }
 .terms {
     width: 750px;
@@ -197,12 +204,87 @@ p2 {
     margin-top: 34px;
     margin-left: 99px;
 }
-.terms-values {
-    width: 157px;
-    height: 46px;
+.credit-60-items {
     display: flex;
+    justify-content: space-between;
+    width: 545px;
+    margin-left: 99px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.credits-60-head {
+    display: flex;
+    justify-content: space-between;
+}
+.credits-60-head p {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    color: #212121;
+}
+.credits-60-item {
+    text-align: center;
+    width: 157px;
+    height: 97px;
+    line-height: 130%;
+}
+.credits-60-item p{
+    margin: 0;
+    padding: 8px;
+}
+.credits-60-item-head {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    color: #212121;
+    border-bottom: 1px solid #3A95FF;
+}
+.credit-card-side-link {
+    background: #F7F7F7;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-bottom: 5px solid #3A95FF;
+    width: 360px;
+    height: 235px;
+    display: flex;
+    padding: 34px;
+    box-sizing: border-box;
+}
+.credit-card-side-link img {
+    align-self: flex-end;
+}
+.credit-buttons {
+    margin-left: 99px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h4 {
+
+}
+.get-card{
+    display: flex;
+    justify-content: space-between;
+}
+.get-card-item {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
 }
+footer {
+    background-color: #EFF2F5;
+}
+.footer-info {
+    display: flex;
 
+}
+.footer-info-item {
+    width: 360px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #424242;
+}
