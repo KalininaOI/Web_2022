@@ -247,11 +247,22 @@ p2 {
     width: 360px;
     height: 235px;
     display: flex;
-    padding: 34px;
+    padding: 0px 34px 34px 34px;
     box-sizing: border-box;
+    justify-content: space-between;
+}
+.credit-card-side-link a {
+    align-self: flex-end;
 }
 .credit-card-side-link img {
     align-self: flex-end;
+}
+.side-cards {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #212121;
+
 }
 .credit-buttons {
     margin-left: 99px;
@@ -261,25 +272,32 @@ p2 {
     flex-direction: column;
     justify-content: space-between;
 }
-h4 {
-
+.get-card-block {
+    margin-top: 70px;
+    margin-bottom: 110px;
 }
 .get-card{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
 }
 .get-card-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.get-card-item img {
+    width: 82px;
+    height: 82px;
 }
 footer {
     background-color: #EFF2F5;
 }
 .footer-info {
     display: flex;
-
 }
 .footer-info-item {
     width: 360px;
@@ -287,4 +305,44 @@ footer {
     font-size: 14px;
     line-height: 130%;
     color: #424242;
+    margin-top: 37px;
+    margin-bottom: 38px;
+}
+.copyright {
+    font-weight: 600;
+    margin-left: 15px;
+}
+.feedback {
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+
+.debet-cards-item {
+    background-color: #EFF2F5;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+}
+.debet-cards-item img {
+    width: 555px;
+}
+.debet-cards-item-info {
+    width: 555px;
+
+}
+.debet-cards-item-info p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #424242;
+
+}
+h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #212121;
 }
