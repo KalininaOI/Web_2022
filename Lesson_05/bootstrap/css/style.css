@@ -1,0 +1,22 @@
+.orange {
+    background-color: orange;
+    height: 500px;
+}
+
+.pink {
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.btn-violet {
+    background-color: blueviolet;
+    color: beige;
+}
+
+.navbar-text {
+    color: bisque !important;
+}
+
+.bg-dark-blue {
+    background-color: darkblue;
+}
