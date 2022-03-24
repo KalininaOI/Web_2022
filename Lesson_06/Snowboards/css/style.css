@@ -1,0 +1,21 @@
+
+@media (max-widht: 576px){
+    .img-banner h1{
+text-align: center;
+    }
+}
+.nav-top {
+
+}
+
+.img-banner {
+    position: relative;
+}
+
+.img-banner h1{
+    position: absolute;
+    left: 2em;
+    bottom: 2.5em;
+    color: antiquewhite;
+    font-weight: 600;
+}
